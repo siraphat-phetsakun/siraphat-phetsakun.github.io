@@ -10,8 +10,9 @@ const Header = () => {
             <div class="inner-width">
                 <div class="content">
                     <h1></h1>
-                    <div class="sm">                     
+                    <div class="sm">
                         <a href="https://github.com/siraphat-phetsakun" class="fab fa-github"></a>
+                        <a href="https://github.com/SiraphatPhetsakun"><i className="fab fa-github"></i></a>
                         <a href="https://www.linkedin.com/in/siraphat-phetsakun-84bb12230/" class="fab fa-linkedin-in"></a>
                     </div>
                     <div class="buttons">
@@ -24,4 +25,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default Header

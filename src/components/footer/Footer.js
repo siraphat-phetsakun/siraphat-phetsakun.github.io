@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="footer-col">
             <h4>Download</h4>
             <ul>
-              <li><a href={ Resume } download>Resume</a></li>
+              <li><a href={Resume} download>Resume</a></li>
             </ul>
           </div>
           <div className="footer-col">
@@ -35,6 +35,7 @@ const Footer = () => {
             <h4>hire me</h4>
             <div className="social-links">
               <a href="https://github.com/siraphat-phetsakun"><i className="fab fa-github"></i></a>
+              <a href="https://github.com/SiraphatPhetsakun"><i className="fab fa-github"></i></a>
               <a href="https://www.linkedin.com/in/siraphat-phetsakun-84bb12230/"><i className="fab fa-linkedin-in"></i></a>
             </div>
           </div>
@@ -44,4 +45,4 @@ const Footer = () => {
   )
 }
 
-export default Footer;
+export default Footer
